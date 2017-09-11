@@ -3,44 +3,17 @@ slick
 
 [1]: <https://github.com/kenwheeler/slick>
 
-_the last carousel you'll ever need_
+_REALLY! the last carousel you'll ever need--without the fonts or loading png files_
 
 #### Demo
 
 [http://kenwheeler.github.io/slick](http://kenwheeler.github.io/slick/)
 
-#### CDN
-
-To start working with Slick right away, there's a couple of CDN choices availabile
-to serve the files as close, and fast as possible to your users:
-
-- https://cdnjs.com/libraries/slick-carousel
-- https://www.jsdelivr.com/projects/jquery.slick
-
-##### Example using jsDelivr
-
-Just add a link to the css file in your `<head>`:
-
-```html
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css"/>
-```
-
-Then, before your closing ```<body>``` tag add:
-
-```html
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.min.js"></script>
-```
-
-#### Package Managers
+#### Package Manager
 
 ```sh
-# Bower
-bower install --save slick-carousel
-
 # NPM
-npm install slick-carousel
+npm install slick-carousel-no-font-no-png
 ```
 
 #### Contributing
@@ -262,7 +235,6 @@ $(element).slick('unslick');
 
 Variable | Type | Default | Description
 ------ | ---- | ------- | -----------
-$slick-loader-path | string | "./" | Directory path for the loader image
 $slick-arrow-color | color | white | Color of the left/right arrow icons
 $slick-dot-color | color | black | Color of the navigation dots
 $slick-dot-color-active | color | $slick-dot-color | Color of the active navigation dot
