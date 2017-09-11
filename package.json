@@ -1,6 +1,6 @@
 {
   "name": "slick-carousel-no-font-no-png",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "description": "the last carousel you'll ever need--without the fonts or loading png files",
   "main": "slick/slick.js",
   "repository": {
